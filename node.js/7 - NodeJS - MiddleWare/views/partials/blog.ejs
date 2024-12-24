@@ -1,0 +1,19 @@
+<% if (blogs.length> 0) { %>
+  <div class="row">
+  <% blogs.forEach(blog=> { %>
+    <div class="col-4">
+      <a href="/blogs/<%= blog._id %> " class="blog__item">
+        <img src=<%= blog.imgUrl %> alt="">
+        <h3><%= blog.title %> </h3>
+        <p><%= blog.description %></p>
+        <div>
+          <span><%= blog.date %> </span>
+          <span>Read more</span>
+        </div>
+      </a>
+    </div>
+    <% }) %>
+  </div>
+      <% } else { %>
+        <p>There are no blogs to display...</p>
+        <% } %>

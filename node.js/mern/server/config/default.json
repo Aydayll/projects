@@ -1,0 +1,4 @@
+{
+    "PORT": 8080,
+    "DBURL":"mongodb+srv://ayday:1234@atabek.dq0h2.mongodb.net/MERN?retryWrites=true&w=majority" 
+}

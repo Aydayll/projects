@@ -1,0 +1,20 @@
+.hero {
+    min-height: 400;
+    background-color: #fbfbfb;
+}
+.hero__content {
+    padding-top: 70px;
+    justify-content: space-around;
+}
+.hero h1 {
+    margin-top: 30px;
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 73px; 
+}
+.hero p {
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 36px;
+    color: #4A5568;
+}

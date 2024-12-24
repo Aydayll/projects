@@ -1,0 +1,19 @@
+header{
+    padding:  36px 0 25px;
+}
+.header__row{
+ display: flex;
+ justify-content: space-between;
+}
+.logo a {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+}
+.nav__media{
+    font-size: 16px;
+    line-height: 19px;
+}
+.nav__item{
+    margin-right: 30px;
+}
